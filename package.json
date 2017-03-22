@@ -1,0 +1,38 @@
+{
+  "name": "byob",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha ./tests/**.js || true",
+    "lint": "node_modules/.bin/eslint public/**.js lib/**.js **.js || true",
+    "lintf": "node_modules/.bin/eslint public/**.js lib/**.js **.js  --fix || true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noahpeden/byob.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/noahpeden/byob/issues"
+  },
+  "homepage": "https://github.com/noahpeden/byob#readme",
+  "devDependencies": {
+    "body-parser": "^1.17.1",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "eslint": "^3.17.1",
+    "express": "^4.15.2",
+    "jquery": "^3.2.0",
+    "md5": "^2.2.1",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "axios": "^0.15.3",
+    "knex": "^0.12.8",
+    "lint": "^1.1.2",
+    "pg": "^6.1.4"
+  }
+}
