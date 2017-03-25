@@ -37,15 +37,35 @@ app.get('/api/v1/region', (request, response) = {
 app.get('/api/v1/region', (request, response) = {
   database('')
 })
-app.get('/api/v1/region', (request, response) = {
+
+app.post('/api/v1/region', (request, response) = {
   database('')
 })
-app.get('/api/v1/region', (request, response) = {
+app.post('/api/v1/region', (request, response) = {
   database('')
 })
-app.get('/api/v1/region', (request, response) = {
+app.post('/api/v1/region', (request, response) = {
   database('')
 })
+app.put('/api/v1/region', (request, response) = {
+  database('')
+})
+app.put('/api/v1/region', (request, response) = {
+  database('')
+})
+app.patch('/api/v1/region', (request, response) = {
+  database('')
+})
+app.delete('/api/v1/region', (request, response) = {
+  database('')
+})
+app.delete('/api/v1/region', (request, response) = {
+  database('')
+})
+app.delete('/api/v1/region', (request, response) = {
+  database('')
+})
+
 
 
 
