@@ -1,0 +1,34 @@
+id	University	Tuition Fee	Language	Link	country_id
+1	University of Buenos Aires	None	Spanish	http://www.uba.ar/	1
+2	National University of Cordoba	None	Spanish	www.unc.edu.ar/english	1
+3	University of Vienna	None	English	https://www.univie.ac.at/en/	2
+4	University of Graz	None	English	https://www.uni-graz.at/en/ 	2
+5	University of Sao Paulo	None	Portuguese	www5.usp.br/english/?lang=en	3
+6	University of Campinas	None	Portuguese	http://www.internationaloffice.unicamp.br/english/international-visitors/the-university/	3
+7	University of Havana	None	Spanish	http://www.uh.cu/	4
+8	Universidad de Oriente Santiago de Cuba	None	Spanish	www.uo.edu.cu	4
+9	Charles University	None if you study in Czech 500-15000 per year in English	Czech Courses are free English is not	http://www.cuni.cz/UKEN-1.html	5
+10	University of West Bohemia	None if you study in Czech 500-15000 per year in English	Czech Courses are free English is not	http://international.zcu.cz/en/	5
+11	Roskilde University	Free for EU students or exchange students	English and Danish	https://ruc.dk/en/	6
+12	University College Zealand	Free for EU students or exchange students	English and Danish	http://ucsj.dk/english/	6
+13	University San Francisco de Quito	None	Spanish	https://www.usfq.edu.ec/Paginas/Inicio.aspx	7
+14	Pontificia Universidad Catolica de Ecuador	None	Spanish	http://www.puce.edu.ec/portal/content/Pontificia%20Universidad%20Cat%C3%B3lica%20del%20Ecuador/0?link=oln266n.redirect	7
+15	Talinn University of Technology	3340	English	https://www.ttu.ee/en 	8
+16	University of Helsinki	Free for EU students or exchange students and scholarships are granted to Americans	English/Finnish/Swedish	https://www.helsinki.fi/en	9
+17	University of Eastern Finland	Free for EU students or exchange students and scholarships are granted to Americans	English/Finnish/Swedish	http://www.uef.fi/en/etusivu	9
+18	Pierre and Marie Curie University	208	French	http://www.uef.fi/en/etusivu	10
+19	Université Paris-Sud	208	French	https://www.usnews.com/education/best-global-universities/universite-paris-sud--502000	10
+20	University of Humboldt	Free	English/German	https://www.wiwi.hu-berlin.de/de/international/incomings	11
+21	Technical University of Munich	Free	English/German	https://www.tum.de/en/	11
+22	University of Iceland	Free	English	http://english.hi.is/university/international_students_0	12
+23	Reykjavík University	Free	English	http://en.ru.is/	12
+24	University of Luxembourg	400 dollars for the first two semesters each 200 for each following semester	Multilingual	http://wwwen.uni.lu/	13
+25	University of Mexico City	Free	Spanish	http://www.google.com	14
+26	University of Bergen	Free	English/Norwegian	http://www.mastersportal.eu/universities/15/university-of-bergen.html	15
+27	Nord University	Free	English/Norwegian	http://www.mastersportal.eu/universities/472/nord-university.html	15
+28	University of Panama	Free	Spanish	www.up.ac.pa/	16
+29	Latin University of Panama	Free	Spanish	www.ulat.ac.pa/	16
+30	University of Ljubljana	Free	English	https://www.uni-lj.si/eng/	17
+31	University of Moridor	Free	English	https://www.um.si/en/Pages/	17
+32	Uppsala University	Free	English	https://www.uu.se/en/	18
+33	University of Gothenburg	Free	English	www.gu.se/english	18

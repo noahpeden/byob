@@ -5,6 +5,7 @@ module.exports = {
     migrations: {
       directory: './db/migrations'
     },
+    debug: true,
     seeds: {
       directory: './db/seeds/dev'
     },

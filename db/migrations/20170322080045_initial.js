@@ -21,6 +21,7 @@ exports.up = function(knex, Promise) {
             table.string('name');
             table.string('tuition_fee');
             table.string('language');
+            table.string('link');
             table.integer('country_id')
                  .references('id')
                  .inTable('country');
@@ -32,8 +33,8 @@ exports.up = function(knex, Promise) {
 
 exports.down = function(knex, Promise) {
     return Promise.all([
-        knex.schema.dropTable('region'),
+        knex.schema.dropTable('university'),
         knex.schema.dropTable('country'),
-        knex.schema.dropTable('university')
+        knex.schema.dropTable('region')
     ])
 };
