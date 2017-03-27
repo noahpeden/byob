@@ -34,7 +34,10 @@ app.get('/api/v1/region', (request, response) => {
 
 app.get('/api/v1/region/:id', (request, response) => {
   database('region').where('id', request.params.id).select()
-          .then(function(region) {
+  .then(function(region) {
+          if (region.length < 1) {
+            res.status(404).send({ error: 'region does not exist' })
+          }
             response.status(200).json(region);
           })
           .catch(function(error) {
@@ -58,17 +61,25 @@ app.get('/api/v1/country', (request, response) => {
 
 app.get('/api/v1/country/:id', (request, response) => {
   database('country').where('region_id', request.params.id).select()
-          .then(function(country) {
+  .then(function(country) {
+          if (country.length < 1) {
+            response.status(404).send({ error: 'country does not exist' })
+          }
             response.status(200).json(country);
           })
           .catch(function(error) {
-            console.error('somethings wrong with country region')
+          console.error('somethings wrong with country region')
+          console.log(error)
+          response.status(404)
           });
 })
 
 app.get('/api/v1/country/:name/country', (request, response) => {
   database('country').where('name', request.params.name).select()
   .then(function(country) {
+  if (country.length < 1) {
+    res.status(404).send({ error: 'country does not exist' })
+  }
     response.status(200).json(country);
   })
   .catch(function(error) {
@@ -92,7 +103,11 @@ app.get('/api/v1/university', (request, response) => {
 
 app.get('/api/v1/university/:id', (request, response) => {
   database('university').where('country_id', request.params.id).select()
-          .then(function(university) {
+
+  .then(function(university) {
+          if (university.length < 1) {
+            res.status(404).send({ error: 'university does not exist' })
+          }
             response.status(200).json(university);
           })
           .catch(function(error) {
@@ -270,6 +285,10 @@ app.delete('/api/v1/university/:id/country_id', (req, res) => {
         res.status(404).send(error)
       })
 });
+
+// custom endpoints
+
+
 if (!module.parent) {
   app.listen(3001, () => {
     console.log('app listening port 3001');
